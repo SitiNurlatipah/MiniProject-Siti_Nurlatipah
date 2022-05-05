@@ -20,8 +20,8 @@ public class RegisterStep {
     }
 
     @When("I type fullname {}")
-    public void iTypeFullname(String fullname) {
-        register.typeFullname(fullname);
+    public void iTypeFullname(String arg0) {
+        register.typeFullname(arg0);
     }
 
     @And("I type email")
@@ -32,8 +32,8 @@ public class RegisterStep {
 
     }
     @And("I type password {}")
-    public void iTypePassword(String password){
-        register.typePassword(password);
+    public void iTypePassword(String arg0){
+        register.typePassword(arg0);
     }
     @And("I click Register button")
     public void iClickLoginButton() {

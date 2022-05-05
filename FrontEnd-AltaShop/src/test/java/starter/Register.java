@@ -9,19 +9,18 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class Register extends PageObject {
 
     private By Fullname(){
-        return By.id("input-345");}
-    private By Email(){return By.id("input-348");}
-    private By Password(){return By.id("input-351");}
-    private By RegisterButton(){return By.className("button.v-btn.v-btn--is-elevated.v-btn--has-bg.theme--light.v-size--default.primary");}
-
+        return By.xpath("//*[label[text()='Nama Lengkap']]/input");}
+    private By Email(){return By.xpath("//*[label[text()='Email']]/input");}
+    private By Password(){return By.xpath("//*[label[text()='Password']]/input");}
+    private By RegisterButton(){return By.xpath("//*[@id=\"app\"]/div/main/div/div/div/div[2]/form/div[4]/button");}
     @Step
     public void onRegisterPage(){openAt("/auth/register");}
     @Step
-    public void typeFullname(String fullname){$(Fullname()).type(fullname);}
+    public void typeFullname(String fullname){$(Fullname()).sendKeys(fullname);}
     @Step
-    public void typeEmail(String email){$(Email()).type(email);}
+    public void typeEmail(String email){$(Email()).sendKeys(email);}
     @Step
-    public void typePassword(String password){$(Password()).type(password);}
+    public void typePassword(String password){$(Password()).sendKeys(password);}
     @Step
     public void clickRegisterButton(){$(RegisterButton()).click();}
 
