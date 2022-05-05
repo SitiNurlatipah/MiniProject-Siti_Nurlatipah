@@ -1,4 +1,6 @@
-D:\Mini Project-QE Alta\FrontEnd-AltaShop\src\test\java\CucumberTestSuite.java
-D:\Mini Project-QE Alta\FrontEnd-AltaShop\src\test\java\starter\Login.java
-D:\Mini Project-QE Alta\FrontEnd-AltaShop\src\test\java\stepdefinitions\RegisterStep.java
-D:\Mini Project-QE Alta\FrontEnd-AltaShop\src\test\java\starter\Register.java
+D:\Mini Project-QE Alta\Web Automation\FrontEnd-AltaShop\src\test\java\starter\Register.java
+D:\Mini Project-QE Alta\Web Automation\FrontEnd-AltaShop\src\test\java\stepdefinitions\LoginStep.java
+D:\Mini Project-QE Alta\Web Automation\FrontEnd-AltaShop\src\test\java\starter\HomePage.java
+D:\Mini Project-QE Alta\Web Automation\FrontEnd-AltaShop\src\test\java\stepdefinitions\RegisterStep.java
+D:\Mini Project-QE Alta\Web Automation\FrontEnd-AltaShop\src\test\java\starter\Login.java
+D:\Mini Project-QE Alta\Web Automation\FrontEnd-AltaShop\src\test\java\CucumberTestSuite.java
