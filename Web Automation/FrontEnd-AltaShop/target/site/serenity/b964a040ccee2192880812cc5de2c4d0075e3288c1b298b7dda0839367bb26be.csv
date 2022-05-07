@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","As a user, i have able to login","ERROR","2022-05-07T23:25:37.4010843+07:00[Asia/Bangkok]","0.0","13.42"
+"Logout","As a user, i can logout of account","ERROR","2022-05-07T23:25:50.9367821+07:00[Asia/Bangkok]","0.0","3.52"
+"Orger","As a user, i have able to order and pay product","ERROR","2022-05-07T23:25:54.5716369+07:00[Asia/Bangkok]","0.0","3.18"
+"Register","As a user, i have able to create account","ERROR","2022-05-07T23:25:57.8403183+07:00[Asia/Bangkok]","0.0","3.08"
