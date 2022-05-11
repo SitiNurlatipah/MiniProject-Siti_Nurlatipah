@@ -5,14 +5,17 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
+import starter.BLogin;
 import starter.HomePage;
 
 public class HomePageStep {
     @Steps
+    BLogin login;
+    @Steps
     HomePage homePage;
     @Given("{} am at home page")
     public void iAmAtHomePage(String name) {
-        homePage.validateOnHomePage();
+        login.validateOnHomePage();
     }
 
     @When("First I click beli button on {}")

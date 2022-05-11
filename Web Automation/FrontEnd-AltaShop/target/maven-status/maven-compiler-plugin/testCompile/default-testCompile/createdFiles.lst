@@ -1,12 +1,12 @@
-starter\Login.class
 stepdefinitions\LogoutStep.class
 starter\HomePage.class
-stepdefinitions\RegisterStep.class
+stepdefinitions\ARegisterStep.class
+starter\BLogin.class
 stepdefinitions\OrderStep.class
 CucumberTestSuite.class
-stepdefinitions\LoginStep.class
+starter\ARegister.class
 starter\Logout.class
 stepdefinitions\HomePageStep.class
+stepdefinitions\BLoginStep.class
 starter\Transaction.class
 starter\Order.class
-starter\Register.class

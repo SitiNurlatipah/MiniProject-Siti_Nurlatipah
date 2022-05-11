@@ -1,4 +1,4 @@
-Feature: Orger
+Feature: Order
 
   Scenario: As a user, i have able to order and pay product
     Given I am at order page
