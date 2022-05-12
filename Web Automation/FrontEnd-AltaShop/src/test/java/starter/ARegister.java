@@ -5,7 +5,7 @@ import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.By;
 
 public class ARegister extends PageObject {
-
+    private By title(){return By.xpath("//*[@class=\"v-card__title\"]");}
     private By Fullname(){
         return By.xpath("//*[label[text()='Nama Lengkap']]/input");}
     private By Email(){return By.xpath("//*[label[text()='Email']]/input");}
@@ -24,4 +24,8 @@ public class ARegister extends PageObject {
     public void clickRegisterButton(){$(RegisterButton()).click();}
     @Step
     public void iGotErrorMassage(){$(gotErrorMassage()).isDisplayed();}
+    @Step
+    public void validateOnLoginPage(){$(title()).isDisplayed();
     }
+    }
+

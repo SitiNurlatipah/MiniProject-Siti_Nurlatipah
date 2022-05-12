@@ -12,8 +12,7 @@ import starter.ARegister;
 public class ARegisterStep {
     @Steps
     ARegister register;
-    @Steps
-    BLogin login;
+
     @Given("{} am at register page")
     public void iAmAtRegisterPage(String name) {
         register.onRegisterPage();
@@ -37,7 +36,7 @@ public class ARegisterStep {
     }
     @Then("I on Login Page")
     public void iOnLoginPage(){
-    login.validateOnLoginPage();
+    register.validateOnLoginPage();
     }
 
     @Given("{} am on register page")

@@ -16,11 +16,14 @@ public class LogoutStep {
     BLogin login;
     @Steps
     Logout logout;
-    @Given("{} am at transaction page")
-    public void iAmAtTransactionPage(String name) {
-        transaction.onTransactionPage();
-    }
-    @When("I click people icon")
+    @Given("{} on login-page")
+    public void onLoginPage(String nama){login.onLoginPage();}
+    @When("I input my email {}")
+    public void inputMyEmail(String email){login.typeMyEmail(email);}
+    @And("I input my password {}")
+    public void inputMyPassword(String password){login.typeMyPassword(password);
+    login.clickLoginButton();}
+    @And("I click people icon")
     public void iClickPepopleIcon() {
         logout.clickPeopleButton();
     }

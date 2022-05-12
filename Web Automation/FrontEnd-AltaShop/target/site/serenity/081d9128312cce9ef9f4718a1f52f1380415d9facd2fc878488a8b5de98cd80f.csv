@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Register","As a user, i have able to create account","SUCCESS","2022-05-13T01:50:35.7608642+07:00[Asia/Bangkok]","0.0","9.06"
+"Register","As a user, i have not able to create account","SUCCESS","2022-05-13T01:50:45.8289251+07:00[Asia/Bangkok]","0.0","8.46"

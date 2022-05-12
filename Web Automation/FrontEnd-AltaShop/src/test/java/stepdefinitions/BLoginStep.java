@@ -5,15 +5,15 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
-import starter.HomePage;
+import starter.BuyProducts;
 import starter.BLogin;
 
 public class BLoginStep {
     @Steps
     BLogin login;
 
-    @Given("{} am at login page")
-    public void iAmAtRegisterPage(String name) {
+    @Given("{} am at login-page")
+    public void iAmAtLoginPage(String name) {
         login.onLoginPage();
     }
     @When("I type my email {}")
@@ -29,11 +29,11 @@ public class BLoginStep {
         login.clickLoginButton();
     }
     @Then("I on home page")
-    public void iOnLoginPage(){
+    public void iOnHomePage(){
         login.validateOnHomePage();
     }
 
-    @Given("{} am on login page")
+    @Given("{} am on loginpage")
     public void iAmOnLoginPage(String name) {
         login.onLoginPage();
     }
