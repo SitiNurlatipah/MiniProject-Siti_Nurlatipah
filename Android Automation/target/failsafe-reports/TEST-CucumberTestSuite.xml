@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CucumberTestSuite" time="89.111" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Mini Project-QE Alta\Android Automation"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Mini Project-QE Alta\Android Automation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.14+8-LTS-263"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SITINU~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.5\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.5\bin;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Users\Siti Nurlatipah\webdriver;C:\Program Files\nodejs\;C:\Users\Siti Nurlatipah\AppData\Local\Android\Sdk\platform-tools;C:\Users\Siti Nurlatipah\AppData\Local\Android\Sdk\emulator;C:\Users\Siti Nurlatipah\AppData\Local\Microsoft\WindowsApps;C:\Users\Siti Nurlatipah\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Java\jdk-11.0.14;C:\Users\Siti Nurlatipah\AppData\Roaming\npm;C:\Users\Siti Nurlatipah\AppData\Local\Android\Sdk\emulator;C:\Users\Siti Nurlatipah\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-11.0.14\bin;C:\Program Files\apache-maven-3.8.5\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.5/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.5\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Siti Nurlatipah"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Siti Nurlatipah"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.5\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.14"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.14"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.5"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-01-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="I on homepage" classname="As Android user, I can login to the app" time="11.934"/>
+  <testcase name="I tap login icon" classname="As Android user, I can login to the app" time="0.639"/>
+  <testcase name="I type email alexa@email.com" classname="As Android user, I can login to the app" time="1.513"/>
+  <testcase name="I type password 123123123" classname="As Android user, I can login to the app" time="2.03"/>
+  <testcase name="I tap login button" classname="As Android user, I can login to the app" time="0.784"/>
+  <testcase name="I get Error Massage" classname="As Android user, I can login to the app" time="20.181"/>
+  <testcase name="As Android user, I can login to the app" classname="As Android user, I can login to the app" time="20.196"/>
+  <testcase name="I on landing page" classname="As Android user, I can creat account on the app" time="11.804"/>
+  <testcase name="I tap login-icon" classname="As Android user, I can creat account on the app" time="0.616"/>
+  <testcase name="I tap register link" classname="As Android user, I can creat account on the app" time="1.27"/>
+  <testcase name="I input full name" classname="As Android user, I can creat account on the app" time="3.1"/>
+  <testcase name="I input email" classname="As Android user, I can creat account on the app" time="2.347"/>
+  <testcase name="I input password" classname="As Android user, I can creat account on the app" time="1.973"/>
+  <testcase name="I tap register button" classname="As Android user, I can creat account on the app" time="0.763"/>
+  <testcase name="I on got error massage" classname="As Android user, I can creat account on the app" time="20.12"/>
+  <testcase name="As Android user, I can creat account on the app" classname="As Android user, I can creat account on the app" time="20.126"/>
+</testsuite>

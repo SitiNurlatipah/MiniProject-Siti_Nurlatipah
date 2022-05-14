@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","As Android user, I can login to the app","SUCCESS","2022-05-15T02:24:33.183061+07:00[Asia/Bangkok]","0.0","37.27"
+"Register","As Android user, I can creat account on the app","SUCCESS","2022-05-15T02:25:10.4682002+07:00[Asia/Bangkok]","0.0","42.06"

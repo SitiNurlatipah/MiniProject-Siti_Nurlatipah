@@ -22,7 +22,7 @@ public class AndroidDriverPool {
         caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "8");
         caps.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
         caps.setCapability(MobileCapabilityType.NO_RESET, true);
-        caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + File.separator + "app/calculator-alta-qe.apk");
+        caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + File.separator + "app/alta-online-shop.apk");
 
         try {
             driver = new AndroidDriver<AndroidElement>(new URL(appiumUrl), caps);
