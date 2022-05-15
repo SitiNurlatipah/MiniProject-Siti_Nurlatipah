@@ -10,5 +10,5 @@ jobs:
     - name: Run JMeter Tests
       uses: rbhadti94/apache-jmeter-action@v0.5.0
       with:
-        testFilePath: D:\Mini Project-QE Alta\REST API\REST_API-AltaShop.jmx
+        testFilePath: REST_API-AltaShop.jmx
         outputReportsFolder: Reports/
