@@ -38,9 +38,9 @@ public class LoginStep {
         login.tapLoginButton();
     }
 
-    @Then("I get Error Massage")
+    @Then("I on Home page")
     public void validateOnHomePage() {
-        login.massageError();
+        login.onHomepage();
     }
 
 }

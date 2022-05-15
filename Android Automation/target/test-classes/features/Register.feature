@@ -7,4 +7,4 @@ Feature: Register
     And I input email
     And I input password
     And I tap register button
-    Then I on got error massage
+    Then I on home-page

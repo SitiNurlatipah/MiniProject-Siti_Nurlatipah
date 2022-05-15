@@ -50,9 +50,10 @@ public class RegisStep {
     public void iTapRegisterButton() {
         regis.tapRegisterButton();
     }
-    @Then("I on got error massage")
+    @Then("I on home-page")
     public void gotErrorMassage() {
-        regis.errorMassage();
+        boolean actual = regis.onLandingPage();
+        Assert.assertTrue(actual);
     }
 
 }

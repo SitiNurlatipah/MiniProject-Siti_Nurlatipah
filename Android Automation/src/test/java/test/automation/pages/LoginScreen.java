@@ -12,7 +12,7 @@ public class LoginScreen extends BasePageObject {
     private By emailField(){return MobileBy.xpath("//android.view.View//android.widget.EditText[1]");}
     private By passwordField(){return MobileBy.xpath("//android.view.View//android.widget.EditText[2]");}
     private By loginButton(){return MobileBy.xpath("//android.widget.Button[@content-desc=\"Login\"]\n");}
-    private By snackbarLogin(){return MobileBy.AccessibilityId("Email atau password tidak valid.");}
+    //private By snackbarLogin(){return MobileBy.AccessibilityId("Email atau password tidak valid.");}
     @Step
     public boolean onHomepage() {
         return waitUntilPresence(productText()).isDisplayed();
@@ -32,7 +32,7 @@ public class LoginScreen extends BasePageObject {
     public void typePassword(String password){onType(passwordField(),password);}
     @Step
     public void tapLoginButton(){onClick(loginButton());}
-    @Step
-    public void massageError(){waitUntilVisible(snackbarLogin()).getText();}
+    //@Step
+    //public void massageError(){waitUntilVisible(snackbarLogin()).getText();}
 
 }

@@ -17,7 +17,7 @@ public class RegisterScreen extends BasePageObject {
     private By emailField(){return MobileBy.xpath("//android.widget.LinearLayout//android.widget.EditText[2]");}
     private By passwordField(){return MobileBy.xpath("//android.widget.LinearLayout//android.widget.EditText[3]");}
     private By registerButton(){return MobileBy.xpath("//android.widget.Button[@content-desc=\"Register\"]");}
-    private By snackbarError(){return MobileBy.AccessibilityId("Gagal :(");}
+    //private By snackbarError(){return MobileBy.AccessibilityId("Gagal :(");}
     @Step
     public boolean onLandingPage(){
         return waitUntilPresence(productText()).isDisplayed();
@@ -58,6 +58,6 @@ public class RegisterScreen extends BasePageObject {
     }
     @Step
     public void tapRegisterButton(){onClick(registerButton());}
-    @Step
-    public void errorMassage(){waitUntilVisible(snackbarError()).getText();}
+    //@Step
+    //public void errorMassage(){waitUntilVisible(snackbarError()).getText();}
 }
