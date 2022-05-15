@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Register","As a user, i have able to create account","SUCCESS","2022-05-14T00:40:57.4751329+07:00[Asia/Bangkok]","0.0","8.15"
-"Register","As a user, i have not able to create account","SUCCESS","2022-05-14T00:41:06.4598904+07:00[Asia/Bangkok]","0.0","7.92"
-"Register","As a user, i can short the price of product","SUCCESS","2022-05-14T00:41:15.2064454+07:00[Asia/Bangkok]","0.0","9.37"
+"Register","As a user, i have able to create account","SUCCESS","2022-05-15T23:24:45.3372401+07:00[Asia/Bangkok]","0.0","8.93"
+"Register","As a user, i have not able to create account","SUCCESS","2022-05-15T23:24:55.322238+07:00[Asia/Bangkok]","0.0","7.21"
+"Register","As a user, i can short the price of product","SUCCESS","2022-05-15T23:25:03.6186138+07:00[Asia/Bangkok]","0.0","11.91"

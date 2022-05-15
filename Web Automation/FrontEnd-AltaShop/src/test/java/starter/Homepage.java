@@ -5,7 +5,7 @@ import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.By;
 
 public class Homepage extends PageObject {
-    private By details(){return By.xpath("//*[@id=\"519\"]/div/div[3]/div[2]/button[1]");}
+    private By details(){return By.xpath("(//div/*[@class=\"mt-3\"]//button[1])[3]");}
     private By rating(){return By.xpath("//div/*[@class=\"v-rating v-rating--dense\"]/button[5]");}
     private By getRating(){return By.xpath("//div/*[@class=\"v-rating v-rating--dense\"]");}
     @Step

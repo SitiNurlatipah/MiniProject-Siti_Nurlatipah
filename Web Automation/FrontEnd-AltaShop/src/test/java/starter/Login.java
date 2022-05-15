@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 
 public class Login extends PageObject {
 
-    private By beliText(){return By.xpath("//*[@id=\"app\"]/div[1]/main/div/div/div[1]/div/div[1]");}
+    private By barCategory(){return By.xpath("(//div/*[@role=\"button\"])[2]");}
 
     private By fieldEmail(){return By.xpath("//*[label[text()='Email']]/input");}
     private By fieldPassword(){return By.xpath("//*[label[text()='Password']]/input");}
@@ -23,7 +23,7 @@ public class Login extends PageObject {
     @Step
     public void clickLoginButton(){$(loginButton()).click();}
     @Step
-    public void validateOnHomePage(){$(beliText()).isDisplayed();
+    public void validateOnHomePage(){$(barCategory()).isDisplayed();
     }
     @Step
     public void gotErrorMassage(){$(errorMassage()).isDisplayed();}

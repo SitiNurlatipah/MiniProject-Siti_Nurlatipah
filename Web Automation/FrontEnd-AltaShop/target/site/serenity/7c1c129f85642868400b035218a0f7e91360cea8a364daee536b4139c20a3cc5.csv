@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login","As a user, i have able to login","SUCCESS","2022-05-14T00:40:05.6853898+07:00[Asia/Bangkok]","0.0","6.34"
-"Login","As a user, i have not able to login because password is wrong","SUCCESS","2022-05-14T00:40:12.8018499+07:00[Asia/Bangkok]","0.0","6.27"
-"Login","As a user, i have not able to login because email is wrong","SUCCESS","2022-05-14T00:40:20.3283153+07:00[Asia/Bangkok]","0.0","6.33"
+"Login","As a user, i have able to login","SUCCESS","2022-05-15T23:23:49.4130199+07:00[Asia/Bangkok]","0.0","7.17"
+"Login","As a user, i have not able to login because password is wrong","SUCCESS","2022-05-15T23:23:57.5751729+07:00[Asia/Bangkok]","0.0","7.07"
+"Login","As a user, i have not able to login because email is wrong","SUCCESS","2022-05-15T23:24:05.5730629+07:00[Asia/Bangkok]","0.0","6.27"

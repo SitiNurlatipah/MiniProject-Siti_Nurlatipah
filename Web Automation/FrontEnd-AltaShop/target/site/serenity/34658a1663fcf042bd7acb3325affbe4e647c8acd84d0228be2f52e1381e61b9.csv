@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Homepage","As a user, i can see details product and give rating","SUCCESS","2022-05-14T00:39:53.0335455+07:00[Asia/Bangkok]","0.0","11.81"
-"Logout","As a user, i can logout of account","FAILURE","2022-05-14T00:40:27.4359616+07:00[Asia/Bangkok]","0.0","13.15"
-"Order","As a user, i have able to order and pay product","SUCCESS","2022-05-14T00:40:41.8507825+07:00[Asia/Bangkok]","0.0","14.64"
+"Logout","As a user, i can logout of account","SUCCESS","2022-05-15T23:24:12.8147304+07:00[Asia/Bangkok]","0.0","13.62"
+"Order","As a user, i have able to order and pay product","SUCCESS","2022-05-15T23:24:28.271128+07:00[Asia/Bangkok]","0.0","15.82"
+"Register","As a user, i can short the price of product","SUCCESS","2022-05-15T23:25:03.6186138+07:00[Asia/Bangkok]","0.0","11.91"
