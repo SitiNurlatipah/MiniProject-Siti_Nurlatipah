@@ -1,0 +1,14 @@
+name: CI
+on:
+  push:
+    branches: [ master ]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run JMeter Tests
+      uses: rbhadti94/apache-jmeter-action@v0.5.0
+      with:
+        testFilePath: D:\Mini Project-QE Alta\REST API\REST_API-AltaShop.jmx
+        outputReportsFolder: Reports/
