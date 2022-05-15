@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da78b3fc-b552-41d4-b41b-00f3ee283a72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/alta-online-shop.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/automation/driver/AndroidDriverPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/automation/driver/AndroidDriverPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/automation/properties/ConfigProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/automation/properties/DriverAndroidProperties.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Web Automation/FrontEnd-AltaShop/src/test/java/starter/ARegister.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Web Automation/FrontEnd-AltaShop/src/test/java/starter/BLogin.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Web Automation/FrontEnd-AltaShop/src/test/java/starter/BuyProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Web Automation/FrontEnd-AltaShop/src/test/java/starter/BuyProducts.java" afterDir="false" />

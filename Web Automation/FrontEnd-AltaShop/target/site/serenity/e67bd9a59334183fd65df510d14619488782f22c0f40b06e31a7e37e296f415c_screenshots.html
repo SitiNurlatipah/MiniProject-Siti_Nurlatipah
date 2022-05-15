@@ -151,7 +151,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 13-05-2022 01:50</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 14-05-2022 00:40</span>
     <br style="clear:left"/>
 </div>
 
@@ -186,9 +186,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="failing-color">As a user, i have able to order and pay product
+                                <span class="success-color">As a user, i have able to order and pay product
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -205,56 +205,33 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
-            <div class="screenshotFailure panel panel-danger">
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall"
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-overall">
-            <div class="card">
-                <div class="card-header">
-                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>starter.Order.bayar(Order.java:12)<br />stepdefinitions.OrderStep.iClickBayarButton(OrderStep.java:25)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:57)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:95)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)<br /></pre>
-                    </div>
-
-                    <h4>
-                        Caused by: org.openqa.selenium.TimeoutException
-                    </h4>
-                    <div>
-                            <pre>Expected condition failed: waiting for By.id: button-bayar to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
-                        <pre>starter.Order.bayar(Order.java :12)<br />stepdefinitions.OrderStep.iClickBayarButton(OrderStep.java :25)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :86)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :57)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :95)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java :151)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java :23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java :151)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java :137)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :58)<br /></pre>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-                <div class="panel-body">
-                    <a href="pagesource1963357299471114342.html" target="_blank" class="btn btn-info">HTML Source</a>
-                </div>
-            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
                 <img src="a5ed35558b9c8876cb917d3517cdaac46cf9e88aae94b994d1332402afe9e096.png" title=" Given I am at order page" width="1554"/>
                 <img src="a5ed35558b9c8876cb917d3517cdaac46cf9e88aae94b994d1332402afe9e096.png" title=" On order page" width="1554"/>
                 <img src="a5ed35558b9c8876cb917d3517cdaac46cf9e88aae94b994d1332402afe9e096.png" title=" Given I am at order page (completed)" width="1554"/>
-                <img src="a5ed35558b9c8876cb917d3517cdaac46cf9e88aae94b994d1332402afe9e096.png" title=" When I click bayar button" width="1554"/>
-                <img src="a5ed35558b9c8876cb917d3517cdaac46cf9e88aae94b994d1332402afe9e096.png" title=" Bayar: <span class='failing-color'>FAILURE</span>" width="1554"/>
+                <img src="1986cfd4f395b4ffd4412aae8ecb1865e8010c41261a7c102f38b7b05886cc26.png" title=" When I click login icon" width="1554"/>
+                <img src="1986cfd4f395b4ffd4412aae8ecb1865e8010c41261a7c102f38b7b05886cc26.png" title=" To login page" width="1554"/>
+                <img src="1986cfd4f395b4ffd4412aae8ecb1865e8010c41261a7c102f38b7b05886cc26.png" title=" When I click login icon (completed)" width="1554"/>
+                <img src="07c7f0de8c3c54fe8a1963958a2243d0fb870137db1cfded1db65c936f59fa56.png" title=" And I input email landon.mcdermott@hotmail.com" width="1554"/>
+                <img src="07c7f0de8c3c54fe8a1963958a2243d0fb870137db1cfded1db65c936f59fa56.png" title=" Type my email: landon.mcdermott@hotmail.com" width="1554"/>
+                <img src="07c7f0de8c3c54fe8a1963958a2243d0fb870137db1cfded1db65c936f59fa56.png" title=" And I input email landon.mcdermott@hotmail.com (completed)" width="1554"/>
+                <img src="4b11d0ee75042a4b39c3ef4ed60c738cd332d7d352a3ffabfa53b13c527264be.png" title=" And I input password aiueo" width="1554"/>
+                <img src="4b11d0ee75042a4b39c3ef4ed60c738cd332d7d352a3ffabfa53b13c527264be.png" title=" Type my password: aiueo" width="1554"/>
+                <img src="4b11d0ee75042a4b39c3ef4ed60c738cd332d7d352a3ffabfa53b13c527264be.png" title=" Click login button" width="1554"/>
+                <img src="ec943ce2f138ff3057a586e98a735a82e261e5fec3fa0d53f32b6c3b2e30e077.png" title=" Click login button (completed)" width="1554"/>
+                <img src="ec943ce2f138ff3057a586e98a735a82e261e5fec3fa0d53f32b6c3b2e30e077.png" title=" And I input password aiueo (completed)" width="1554"/>
+                <img src="95c906befec1170b7fc189d907db62d6cc1348381eda7f3713bcd5b4b998d13b.png" title=" And I buy Mousepad" width="1554"/>
+                <img src="95c906befec1170b7fc189d907db62d6cc1348381eda7f3713bcd5b4b998d13b.png" title=" Buy mouse pad" width="1554"/>
+                <img src="95c906befec1170b7fc189d907db62d6cc1348381eda7f3713bcd5b4b998d13b.png" title=" Shop chart button" width="1554"/>
+                <img src="0f12cd307602be5af85ccd392a2a18cd9b5533c235a1063084702a68d46a1d6c.png" title=" Shop chart button (completed)" width="1554"/>
+                <img src="0f12cd307602be5af85ccd392a2a18cd9b5533c235a1063084702a68d46a1d6c.png" title=" And I buy Mousepad (completed)" width="1554"/>
+                <img src="2c9f0b126198764d3246588f6767eb0bf739a796b6883e73d39528067e47a4d9.png" title=" And I click bayar" width="1554"/>
+                <img src="2c9f0b126198764d3246588f6767eb0bf739a796b6883e73d39528067e47a4d9.png" title=" Bayar" width="1554"/>
+                <img src="2c9f0b126198764d3246588f6767eb0bf739a796b6883e73d39528067e47a4d9.png" title=" And I click bayar (completed)" width="1554"/>
+                <img src="fd86722d5f3ff17223786754073b3c6004fa79b27ed711dc4b49b1af48ecf35e.png" title=" Then I on transaction page" width="1554"/>
+                <img src="fd86722d5f3ff17223786754073b3c6004fa79b27ed711dc4b49b1af48ecf35e.png" title=" Validate on transaction page" width="1554"/>
+                <img src="fd86722d5f3ff17223786754073b3c6004fa79b27ed711dc4b49b1af48ecf35e.png" title=" Then I on transaction page (completed): <span class='success-color'>SUCCESS</span>" width="1554"/>
             </div>
         </div>
 

@@ -6,9 +6,9 @@ import org.openqa.selenium.By;
 
 public class BuyProducts extends PageObject {
 
-    private By beliTensiDarah(){return By.xpath("//*[@id=\"429\"]/div/div[3]/div[2]/button[2]");}
-    private By beliCamera(){return By.xpath("//*[@id=\"428\"]/div/div[3]/div[2]/button[2]");}
-    private By beliCincinEmas(){return By.xpath("//*[@id=\"441\"]/div/div[3]/div[2]/button[2]");}
+    private By beliTensiDarah(){return By.xpath("//*[@id=\"519\"]/div/div[3]/div[2]/button[2]");}
+    private By beliCamera(){return By.xpath("//*[@id=\"524\"]/div/div[3]/div[2]/button[2]");}
+    private By beliCincinEmas(){return By.xpath("//*[@id=\"867\"]/div/div[3]/div[2]/button[2]");}
     private By chartButton(){return By.xpath("//*[@id=\"app\"]/div/header/div/button[1]");}
     private By chartAdded(){return By.xpath("//*[@id=\"app\"]/div/header/div/button[1]/span/span/span/span");}
 

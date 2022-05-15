@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Logout","As a user, i can logout of account","FAILURE","2022-05-13T01:50:01.069474+07:00[Asia/Bangkok]","0.0","18.94"
-"Order","As a user, i have able to order and pay product","FAILURE","2022-05-13T01:50:22.0772841+07:00[Asia/Bangkok]","0.0","12.55"
+"Logout","As a user, i can logout of account","FAILURE","2022-05-14T00:40:27.4359616+07:00[Asia/Bangkok]","0.0","13.15"

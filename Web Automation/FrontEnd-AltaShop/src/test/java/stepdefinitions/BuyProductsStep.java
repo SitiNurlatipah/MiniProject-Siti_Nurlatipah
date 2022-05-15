@@ -5,12 +5,12 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
-import starter.BLogin;
+import starter.Login;
 import starter.BuyProducts;
 
 public class BuyProductsStep {
     @Steps
-    BLogin login;
+    Login login;
     @Steps
     BuyProducts homePage;
     @Given("{} at login page")

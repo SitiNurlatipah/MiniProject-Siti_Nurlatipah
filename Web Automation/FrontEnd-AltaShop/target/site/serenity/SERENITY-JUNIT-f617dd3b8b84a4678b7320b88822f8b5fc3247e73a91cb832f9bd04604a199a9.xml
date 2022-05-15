@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Logout" skipped="0" tests="1" time="18.94" timestamp="2022-05-13 01:50:01"><testcase name="As a user, i can logout of account"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Logout" skipped="0" tests="1" time="13.15" timestamp="2022-05-14 12:40:27"><testcase name="As a user, i can logout of account"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
 FrontEnd.AltaShop@1.0-SNAPSHOT/starter.Logout.klikLogoutButton(Logout.java:14)&#13;
-FrontEnd.AltaShop@1.0-SNAPSHOT/stepdefinitions.LogoutStep.iClickLogoutButton(LogoutStep.java:32)&#13;
+FrontEnd.AltaShop@1.0-SNAPSHOT/stepdefinitions.LogoutStep.iClickLogoutButton(LogoutStep.java:34)&#13;
 io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
 io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
 io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;

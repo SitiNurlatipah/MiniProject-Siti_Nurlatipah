@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Buy Product","As a user, i have able to buy a product and add to chart","SUCCESS","2022-05-13T01:49:44.0476347+07:00[Asia/Bangkok]","0.0","15.52"
-"Buy Product","As a user, i have not able to buy a product and add to chart","SUCCESS","2022-05-13T01:50:00.7191406+07:00[Asia/Bangkok]","0.0","0.25"
+"Buy Product","As a user, i have able to buy a product and add to chart","SUCCESS","2022-05-14T00:36:51.8975197+07:00[Asia/Bangkok]","0.0","179.98"
+"Buy Product","As a user, i have not able to buy a product and add to chart","SUCCESS","2022-05-14T00:39:52.8995386+07:00[Asia/Bangkok]","0.0","0.1"

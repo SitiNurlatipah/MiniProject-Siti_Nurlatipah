@@ -5,15 +5,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
-import starter.BLogin;
+import starter.Login;
 import starter.Logout;
-import starter.Transaction;
 
 public class LogoutStep {
+
     @Steps
-    Transaction transaction;
-    @Steps
-    BLogin login;
+    Login login;
     @Steps
     Logout logout;
     @Given("{} on login-page")
@@ -23,7 +21,11 @@ public class LogoutStep {
     @And("I input my password {}")
     public void inputMyPassword(String password){login.typeMyPassword(password);
     login.clickLoginButton();}
-    @And("I click people icon")
+    @And("I on landing page")
+    public void iOnLandingPage() {
+        login.validateOnHomePage();
+    }
+    @And("I click people-icon")
     public void iClickPepopleIcon() {
         logout.clickPeopleButton();
     }
