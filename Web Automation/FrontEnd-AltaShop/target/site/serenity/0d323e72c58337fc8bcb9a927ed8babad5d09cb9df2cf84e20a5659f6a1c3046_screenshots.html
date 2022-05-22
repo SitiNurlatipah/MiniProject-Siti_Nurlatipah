@@ -151,7 +151,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 15-05-2022 23:23</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 20-05-2022 22:59</span>
     <br style="clear:left"/>
 </div>
 
@@ -186,9 +186,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">As a user, i have able to buy a product and add to chart
+                                <span class="failing-color">As a user, i have able to buy a product and add to chart
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -205,35 +205,64 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall"
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>starter.BuyProducts.buyTensiDarah(BuyProducts.java:16)<br />stepdefinitions.BuyProductsStep.iBuyTensiElektrik(BuyProductsStep.java:31)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:57)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:95)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.xpath: (//div/*[@class=&quot;mt-3&quot;]//button[2])[1] to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>starter.BuyProducts.buyTensiDarah(BuyProducts.java :16)<br />stepdefinitions.BuyProductsStep.iBuyTensiElektrik(BuyProductsStep.java :31)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :86)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :57)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :95)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java :151)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java :23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java :151)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java :137)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java :58)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                <div class="panel-body">
+                    <a href="pagesource11535225841038819103.html" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="aef0e5914dc3e205d587e4dd044394fa48b3466ef033e71e0aa4e3ca907ede95.png" title=" Given I at login page" width="1554"/>
-                <img src="aef0e5914dc3e205d587e4dd044394fa48b3466ef033e71e0aa4e3ca907ede95.png" title=" On login page" width="1554"/>
-                <img src="aef0e5914dc3e205d587e4dd044394fa48b3466ef033e71e0aa4e3ca907ede95.png" title=" Given I at login page (completed)" width="1554"/>
-                <img src="1c191dbe45f4fc4ee4e0cf94146d4ffeded7ed32a534fda4f0d3562e2f8938b1.png" title=" When I enter email landon.mcdermott@hotmail.com" width="1554"/>
-                <img src="1c191dbe45f4fc4ee4e0cf94146d4ffeded7ed32a534fda4f0d3562e2f8938b1.png" title=" Type my email: landon.mcdermott@hotmail.com" width="1554"/>
-                <img src="1c191dbe45f4fc4ee4e0cf94146d4ffeded7ed32a534fda4f0d3562e2f8938b1.png" title=" When I enter email landon.mcdermott@hotmail.com (completed)" width="1554"/>
-                <img src="fb804eed024858596bad6d6d5b4ce2140c9641fe891874bf1902c7a4d17011a2.png" title=" And I enter password aiueo" width="1554"/>
-                <img src="fb804eed024858596bad6d6d5b4ce2140c9641fe891874bf1902c7a4d17011a2.png" title=" Type my password: aiueo" width="1554"/>
-                <img src="fb804eed024858596bad6d6d5b4ce2140c9641fe891874bf1902c7a4d17011a2.png" title=" Click login button" width="1554"/>
-                <img src="ad614cf3bf6b605c42ba5256eddb88d21f1f2762875359e21cfb21cffa58017b.png" title=" Click login button (completed)" width="1554"/>
-                <img src="ad614cf3bf6b605c42ba5256eddb88d21f1f2762875359e21cfb21cffa58017b.png" title=" And I enter password aiueo (completed)" width="1554"/>
-                <img src="53803b2de0079505de5348d9f402907ad8110475d858f23d8e55abf96bcfee4f.png" title=" And First I buy Tensi Darah Eelktrik" width="1554"/>
-                <img src="53803b2de0079505de5348d9f402907ad8110475d858f23d8e55abf96bcfee4f.png" title=" Buy tensi darah: Tensi Darah Eelktrik" width="1554"/>
-                <img src="10e92250c43027f88b9bd23fcb0c48cfbf644c559d01e95d201a291352b1beab.png" title=" Buy tensi darah: Tensi Darah Eelktrik (completed)" width="1554"/>
-                <img src="10e92250c43027f88b9bd23fcb0c48cfbf644c559d01e95d201a291352b1beab.png" title=" And First I buy Tensi Darah Eelktrik (completed)" width="1554"/>
-                <img src="2d3d729a6a3f59e36ac9242d1aa816e215f3a8d25fbf471d6b5b642c5826f313.png" title=" And Second I buy Camera" width="1554"/>
-                <img src="2d3d729a6a3f59e36ac9242d1aa816e215f3a8d25fbf471d6b5b642c5826f313.png" title=" Buy camera: Camera" width="1554"/>
-                <img src="2d3d729a6a3f59e36ac9242d1aa816e215f3a8d25fbf471d6b5b642c5826f313.png" title=" And Second I buy Camera (completed)" width="1554"/>
-                <img src="82659a1ef189766ff193d6a6453759bfca6a9da9ab2ce9aa104e734bfd2e3af4.png" title=" And Third I buy Cincin Emas" width="1554"/>
-                <img src="82659a1ef189766ff193d6a6453759bfca6a9da9ab2ce9aa104e734bfd2e3af4.png" title=" Buy cincin emas: Cincin Emas" width="1554"/>
-                <img src="82659a1ef189766ff193d6a6453759bfca6a9da9ab2ce9aa104e734bfd2e3af4.png" title=" And Third I buy Cincin Emas (completed)" width="1554"/>
-                <img src="c42aeac58a222a8667ce9008dd9c0bec57ed7e649b773f8788f317b3528068db.png" title=" And I click chart button" width="1554"/>
-                <img src="c42aeac58a222a8667ce9008dd9c0bec57ed7e649b773f8788f317b3528068db.png" title=" Shop chart button" width="1554"/>
-                <img src="c42aeac58a222a8667ce9008dd9c0bec57ed7e649b773f8788f317b3528068db.png" title=" And I click chart button (completed)" width="1554"/>
-                <img src="1e4a448cfc624a8091ebc7462e36ebafc1aea0776defca6e287baf6de79b1303.png" title=" Then I on order page and The product I bought it is here" width="1554"/>
-                <img src="1e4a448cfc624a8091ebc7462e36ebafc1aea0776defca6e287baf6de79b1303.png" title=" Chart increased" width="1554"/>
-                <img src="1e4a448cfc624a8091ebc7462e36ebafc1aea0776defca6e287baf6de79b1303.png" title=" Then I on order page and The product I bought it is here (completed): <span class='success-color'>SUCCESS</span>" width="1554"/>
+                <img src="6f2f89e8c5a543dd0a10df9cc2fb4dfa2a13d528c2d3ad44cda943733ef50e85.png" title=" Given I at login page" width="1554"/>
+                <img src="6f2f89e8c5a543dd0a10df9cc2fb4dfa2a13d528c2d3ad44cda943733ef50e85.png" title=" On login page" width="1554"/>
+                <img src="6f2f89e8c5a543dd0a10df9cc2fb4dfa2a13d528c2d3ad44cda943733ef50e85.png" title=" Given I at login page (completed)" width="1554"/>
+                <img src="bbda1f16dc76a1e684c969b6018daac883bc3d39e4a03ddfa1cccd6dbd4842ef.png" title=" When I enter email landon.mcdermott@hotmail.com" width="1554"/>
+                <img src="bbda1f16dc76a1e684c969b6018daac883bc3d39e4a03ddfa1cccd6dbd4842ef.png" title=" Type my email: landon.mcdermott@hotmail.com" width="1554"/>
+                <img src="bbda1f16dc76a1e684c969b6018daac883bc3d39e4a03ddfa1cccd6dbd4842ef.png" title=" When I enter email landon.mcdermott@hotmail.com (completed)" width="1554"/>
+                <img src="c56111a0c2a53132f07d269190c18b20640022b87179eb23f1b0fbf6c330b30d.png" title=" And I enter password aiueo" width="1554"/>
+                <img src="c56111a0c2a53132f07d269190c18b20640022b87179eb23f1b0fbf6c330b30d.png" title=" Type my password: aiueo" width="1554"/>
+                <img src="c56111a0c2a53132f07d269190c18b20640022b87179eb23f1b0fbf6c330b30d.png" title=" Click login button" width="1554"/>
+                <img src="cb3548906d37354d46b8b5ce2611695ef6ebfb5ccd54ce9467551d2126819e9b.png" title=" Click login button (completed)" width="1554"/>
+                <img src="cb3548906d37354d46b8b5ce2611695ef6ebfb5ccd54ce9467551d2126819e9b.png" title=" And I enter password aiueo (completed)" width="1554"/>
+                <img src="cb3548906d37354d46b8b5ce2611695ef6ebfb5ccd54ce9467551d2126819e9b.png" title=" And First I buy Tensi Darah Eelktrik" width="1554"/>
+                <img src="27a6930d5ae3e4ee8f0273d43f5bae9910d01892279377a63483aa0b4d4bd05b.png" title=" Buy tensi darah: Tensi Darah Eelktrik: <span class='failing-color'>FAILURE</span>" width="1554"/>
             </div>
         </div>
 

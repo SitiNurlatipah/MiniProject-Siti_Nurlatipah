@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Buy Product","As a user, i have able to buy a product and add to chart","FAILURE","2022-05-20T22:59:00.4621666+07:00[Asia/Bangkok]","0.0","102.23"
+"Login","As a user, i have able to login","ERROR","2022-05-20T23:01:45.5487033+07:00[Asia/Bangkok]","0.0","102.71"
+"Login","As a user, i have not able to login because password is wrong","ERROR","2022-05-20T23:03:29.9502973+07:00[Asia/Bangkok]","0.0","63.96"
+"Order","As a user, i have able to order and pay product","FAILURE","2022-05-20T23:08:37.6469031+07:00[Asia/Bangkok]","0.0","85.55"
+"Register","As a user, i have not able to create account","ERROR","2022-05-20T23:15:57.7689688+07:00[Asia/Bangkok]","0.0","76.68"
